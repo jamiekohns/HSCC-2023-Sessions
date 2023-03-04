@@ -1,4 +1,4 @@
-## SESSION PLAN
+## SESSION NOTE
 - Re-introduce our dev environments
     - added user.txt files to environments
 - Go through github setup for anyone that missed it
