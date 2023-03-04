@@ -29,3 +29,5 @@ FLUSH PRIVILEGES;
 ---
 
 ### Create database schema for q_overflow
+Since the schema for the database was not saved in the repo for last year's solution, we will need to 
+re-build it. We'll do this by looking at the code (Models) to identify tables and columns.
