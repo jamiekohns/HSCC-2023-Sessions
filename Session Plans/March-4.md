@@ -9,10 +9,22 @@
 
 ```
 sudo apt update
-sudo atp install mysql-client
+sudo apt install mysql-client
 ```
-- create `q_overflow` database
-- create user for `q_overflow`
+
+Create Database:
+```
+create database q_overflow;
+```
+Create User: 
+```
+CREATE USER 'q_user'@'%' IDENTIFIED BY 'PASSWORD';
+```
+Grant priveleges:
+```
+GRANT ALL PRIVILEGES ON q_overflow.* TO 'q_user'@'%' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+```
 
 ---
 

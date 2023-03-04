@@ -50,18 +50,6 @@ if [ "$IDE_SUDO_PASSWORD" = "" ]; then
     IDE_SUDO_PASSWORD="hscc-atlanta"
 fi
 
-# if test -f "${USERNAME}.env"; then
-#     echo "User ${USERNAME} alredy exists."
-#     exit 1
-# fi
-
-# WEB_PORT_IN_USE=$(grep -rl "_PORT=${WEB_PORT}" ./*.env)
-
-# if [ -n "$WEB_PORT_IN_USE" ]; then
-#     echo "WEB port is in use."
-#     exit 1
-# fi
-
 mkdir /hscc/$USERNAME
 mkdir /hscc/$USERNAME/html
 chmod 777 /hscc/$USERNAME/html
