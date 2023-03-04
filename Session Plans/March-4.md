@@ -1,4 +1,4 @@
-## SESSION NOTE
+## SESSION NOTES
 - Re-introduce our dev environments
     - added user.txt files to environments
 - Go through github setup for anyone that missed it
@@ -14,7 +14,7 @@ sudo apt install mysql-client
 
 Create Database:
 ```
-create database q_overflow;
+CREATE DATABASE q_overflow;
 ```
 Create User: 
 ```
