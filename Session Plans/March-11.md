@@ -8,7 +8,15 @@
 ### PHP
 - `sudo`
 - `apt`
+    - `sudo apt update`
 - install php-cli
+    - `sudo apt install php-cli`
+### Composer
+- https://getcomposer.org/installer
+- `curl`
+    - `--output` option
+- `php composer-setup.php --install-dir=bin --filename=composer`
+- `mv composer.phar /usr/local/bin/composer`
 ### Thunder Client plugin
 - Make API requests
 - Last year's api key
