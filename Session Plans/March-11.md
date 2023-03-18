@@ -4,6 +4,15 @@
 **Welcome, Siddharth!**
 - Quick dev environment intro
 
+## IDE Updates & Plugin
+### PHP
+- `sudo`
+- `apt`
+- install php-cli
+### Thunder Client plugin
+- Make API requests
+- Last year's api key
+
 ## Database Schema
 - Review tables
 - Are there still tables that need to be created?
@@ -30,4 +39,3 @@
 Example: HTML, CSS, and JavaScript
 
 How we already implementing this in our application?
-
