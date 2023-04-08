@@ -5,7 +5,12 @@
 
 ### Fat Free Framework
 - General structure
-- Routing (and how we will apply our internal api)
+- Routing
 - Templates 
-  - https://fatfreeframework.com/3.8/views-and-templates#AQuickLookattheF3TemplateLanguage 
+  - https://fatfreeframework.com/3.8/views-and-templates#AQuickLookattheF3TemplateLanguage
 - Controllers
+
+### Building our app
+- Data "mocks"
+- InternalController
+  - routes
