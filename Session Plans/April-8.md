@@ -14,3 +14,11 @@
 - Data "mocks"
 - InternalController
   - routes
+
+- By example:
+  - loading json
+    - JS loads the data, then dynamically creates elements in the DOM
+    - `$.getJson` jQuery shortcut
+  - loading html snippets
+    - PHP ($f3) creates an html __snippet__ and JS loads that into DOM
+    - `.load(url)`
